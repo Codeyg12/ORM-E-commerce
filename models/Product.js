@@ -11,8 +11,11 @@ Product.init(
   {
     id: {
       type: DataTypes.INTEGER,
+      // Doesnt allow the field to be empty
       allowNull: false,
+      // Makes the id the primary key
       primaryKey: true,
+      // auto increments so user input isnt needed
       autoIncrement: true,
     },
     product_name: {
@@ -30,12 +33,14 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
+      // Validates its a number 
       validate: {
         isNumeric: true,
       },
     },
     category_id: {
       type: DataTypes.INTEGER,
+      // References for foregin key
       references: {
         model: "category",
         key: "id",

@@ -30,6 +30,7 @@ router.get("/:id", async (req, res) => {
       },
     });
 
+    // Checks if a category with inputted id exists if not not found error occurs
     if (!catData) {
       res.status(404).json({ message: "No category found with that id" });
       return;
@@ -44,6 +45,7 @@ router.get("/:id", async (req, res) => {
 router.post("/", async (req, res) => {
   // create a new category
   try {
+    // Creates a new category with user input
     const catData = await Category.create(req.body);
     res.status(200).json(catData);
   } catch (err) {
@@ -54,6 +56,7 @@ router.post("/", async (req, res) => {
 router.put("/:id", async (req, res) => {
   // update a category by its `id` value
   try {
+    // Updates the category at the used id 
     const catData = await Category.update(req.body, {
       where: {
         id: req.params.id,
@@ -74,6 +77,7 @@ router.delete("/:id", async (req, res) => {
       },
     });
 
+    // Checks if category is real to erase
     if (!catData) {
       res.status(404).json({ message: "No category found with that id" });
       return;

@@ -1,103 +1,108 @@
- <a name="readme-top"></a>
+<a name="readme-top"></a>
 
-  # ORM-E-commerce
+# ORM-E-commerce [<img align="right" src="https://img.shields.io/badge/license-MIT-00beef"></img>](LICENSE)
 
-  ## Table of Contents
-  [Description](#description)
-  
-  [Demo](#demo)
+## Table of Contents
 
-  [Installation](#installation)
+[Description](#description)
 
-  [Usage](#usage)
+[Demo](#demo)
 
-  [Technologies](#tech)
+[Installation](#installation)
 
-  [Contribution](#contribution)
+[Usage](#usage)
 
-  [Testing](#test)
+[Technologies](#tech)
 
-  ### Description
-  
-  This project is testing our knowledge of the back-end of a ecommerce database. We used Express, Sequelize and MySQL to get it working. 
+[Contribution](#contribution)
+
+[Testing](#test)
+
+### Description
+
+This project is testing our knowledge of the back-end of a ecommerce database. We used Express, Sequelize and MySQL to get it working.
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
-  ### Demo
+### Demo
 
-  To view a walkthrough demo video [click here](https://drive.google.com/file/d/1tDfVWBk5Ad54AIqF8rVydW3fVekvWF3I/view)
+To view a walkthrough demo video [click here](https://drive.google.com/file/d/1tDfVWBk5Ad54AIqF8rVydW3fVekvWF3I/view)
 
-  Below is a screenshot from the working server
-  ![odemo](https://user-images.githubusercontent.com/103782398/186040428-7752b9a3-bc54-46c0-9228-91220379ee32.png)
-
+Below is a screenshot from the working server
+![odemo](https://user-images.githubusercontent.com/103782398/186040428-7752b9a3-bc54-46c0-9228-91220379ee32.png)
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
   
   ### Installation
 
-  To install follow these steps
-   1. Clone the repo using either HTTPS 
-   ```sh
-   https://github.com/Codeyg12/ORM-E-commerce.git
-   ```
+To install follow these steps
 
- or SSH key
+1.  Clone the repo using either HTTPS
+
+```sh
+https://github.com/Codeyg12/ORM-E-commerce.git
+```
+
+or SSH key
 
     git@github.com:Codeyg12/ORM-E-commerce.git
 
- 2. install NPM packages
- ```sh
- npm i
- ```
+2.  install NPM packages
 
- 3. Run the seeds file 
- ```sh
- npm run seed
- ```
+```sh
+npm i
+```
 
- 4. Start the server
- ```sh
- npm start
- ```
-  
-  <p align="right"><a href="#readme-top">(Return to top)</a></p>
+3.  Run the seeds file
 
-  ### Usage
+```sh
+npm run seed
+```
 
-  To use api routes and a database to read, update, insert or delete information from the items on an ecommerce website.
+4.  Start the server
+
+```sh
+npm start
+```
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
-  ### Technologies
+### Usage
 
-  Below are the languages and frameworks/libraries used
-
-  * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-  * ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
-
-  * ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
-  * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-  * ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
+To use api routes and a database to read, update, insert or delete information from the items on an ecommerce website.
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
-  ### Contribution
+### Technologies
 
-  Code can always be improved and if you have a suggestion to improve this project then fork the repo and create a pull request.
+Below are the languages and frameworks/libraries used
+
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+- ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
+
+- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
+- ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
-  ### Testing
+### Contribution
 
-  npm test
+Code can always be improved and if you have a suggestion to improve this project then fork the repo and create a pull request.
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
-  #### Links
+### Testing
 
-  To see more of my work check my [Github](https://github.com/Codeyg12). For futher questions you can reach me at codey.gallup@gmail.com.
-  
+npm test
+
+  <p align="right"><a href="#readme-top">(Return to top)</a></p>
+
+#### Links
+
+To see more of my work check my [Github](https://github.com/Codeyg12). For futher questions you can reach me at codey.gallup@gmail.com.
+
   <p align="right"><a href="#readme-top">(Return to top)</a></p>

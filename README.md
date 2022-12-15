@@ -20,7 +20,7 @@
 
 ### Description
 
-This project is testing our knowledge of the back-end of a ecommerce database. We used Express, Sequelize and MySQL to get it working.
+This is a mock-up of the backend of an e-commerce site. It has the functionality to read, add, update and delete information from the database. For this project, I used Express, MySQL, and Insomnia.
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
@@ -39,7 +39,7 @@ To install follow these steps
 
 1.  Clone the repo using either HTTPS
 
-```sh
+```
 https://github.com/Codeyg12/ORM-E-commerce.git
 ```
 
@@ -49,19 +49,19 @@ or SSH key
 
 2.  install NPM packages
 
-```sh
+```
 npm i
 ```
 
 3.  Run the seeds file
 
-```sh
+```
 npm run seed
 ```
 
 4.  Start the server
 
-```sh
+```
 npm start
 ```
 
@@ -69,7 +69,8 @@ npm start
 
 ### Usage
 
-To use api routes and a database to read, update, insert or delete information from the items on an ecommerce website.
+1. After following the installation instructions go to Insomnia, or wherever  you prefer to test RESTful APIs
+2. Use the routes created in the routes folder to test as much as you desire
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
 
@@ -103,6 +104,7 @@ npm test
 
 #### Links
 
-To see more of my work check my [Github](https://github.com/Codeyg12). For futher questions you can reach me at codey.gallup@gmail.com.
+To see more of my work check my [Github](https://github.com/Codeyg12). For further questions, you can reach me at codey.gallup@gmail.com.
 
   <p align="right"><a href="#readme-top">(Return to top)</a></p>
+
